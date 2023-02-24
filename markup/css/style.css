@@ -1,0 +1,365 @@
+:root {
+    --main-color: #efefef;
+    --accent-color: #F13C6E;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus{
+    outline: 2px solid #e86b8f;
+    outline-offset: -3px;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: var(--main-color);
+    color:#000000;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.central-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+} 
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+header a:hover {
+    text-decoration: underline #000000;
+}
+
+.header-main-menu li {
+    margin-right: 30px;
+}
+
+.header-main-menu a {
+    color: #333333;
+    padding: 16px 0 17px;
+    line-height: 16px;
+}
+
+.header-info-wrapper {
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.header-info-wrapper img {
+    padding: 20px 20px 16px 0;
+    float: left;
+}
+
+.header-info-wrapper strong {
+    float:left;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    padding: 40px 0 34px 0;
+    text-transform: uppercase;
+}
+
+.info__phone {
+    float:right;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.info__phone a {
+    padding: 50px 37px 50px 0;  
+}
+
+.info__phone a:hover {
+    text-decoration: underline #000000;
+}
+
+.button-simple {
+    line-height: 16px;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #e76086;
+    padding: 10px 54px 10px 55px;
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+.button-simple:hover {
+    background-color: #e86b8f;
+    cursor: pointer;
+}
+
+.button-white {
+    padding: 9px 66px 8px 66px;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    border-color: #ffffff; 
+}
+
+.services-menu-wrapper {
+    background-color: #ffffff;
+}
+
+.services-menu li {
+    margin-right: 40px;
+}
+
+.services-menu a {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 28px 0 30px;
+}
+
+/* Main START */
+
+.super-chair__wrapper {
+    background: var(--accent-color) url(../images/big-chair.jpg) no-repeat right top / contain;
+    padding: 191px 0 193px;
+}
+
+.super-chair__info {
+    max-width: 308px;
+    color: #FFFFFF;
+}
+
+.super-chair__info h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 39px;
+}
+
+.super-chair__info p {
+    margin-bottom: 28px;
+}
+
+/* Special offers START*/
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.main-content {
+    margin-top: 80px;
+}
+
+.products-list {
+    margin-bottom: 100px;
+    margin-right: -30px;
+    overflow: hidden;
+}
+
+.products-list__item {
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding: 25px 0;
+    margin-right: 30px;
+    width: calc((100% / 4) - 30px);
+    background-color: #ffffff;
+}
+
+.products-list__item span {
+    display: block;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+}
+
+.products-list h4 {
+    font-weight: 400;
+    margin: 13px 30px 14px;
+}
+
+.button-pink {
+    background-color: var(--accent-color);
+    color:#ffffff;
+    padding: 7px 53px 7px 51px;
+} 
+
+/* Bonuses START */
+.propositions-wrapper {
+    overflow: hidden;
+}
+
+.propositions {
+    float: left;
+    margin: 0 30px 100px 0;
+    padding: 34px 45px 35px 40px;
+    width: 540px;
+    background-color: var(--accent-color);
+    color:#ffffff;
+}
+
+.propositions-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 87px;
+}
+
+.propositions-info span {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 19px;
+}
+
+.propositions-info p {
+    margin-bottom: 27px;
+}
+
+.email-form [type="email"] {
+    padding: 9px 52px 10px 24px;
+    border-radius: 30px;
+    border: none;
+}
+
+.email-form [type="submit"] {
+    display: none;
+}
+
+.propositions img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.visit-us {
+    float: right;
+    margin-right: 0;
+}
+
+.visit-us a {
+    padding: 7px 41px 8px 48px;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 35px 60px 29px;
+    border: 1px solid var(--main-color);
+}
+
+table tr td:first-child {
+    border-left: none;
+}
+
+table tr td:last-child {
+    border-left: none;
+}
+
+.recently-viewed-list {
+    margin-bottom: 80px;
+}
+
+/* Footer START */
+.footer-main {
+    background-color: #ffffff;
+    padding-top: 59px;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.categories {
+    overflow: hidden;
+    margin-right: -30px;
+}
+
+.categories-item {
+    float: left;
+    margin-bottom: 49px;
+    margin-right: 30px;
+    width: calc((100% / 4) - 30px);
+    font-size: 12px;
+    line-height: 28px;
+    list-style: none;
+}
+
+.categories-item h4 {
+    margin-bottom: 24px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color:#000000;
+    border-bottom: 1px solid var(--main-color);
+
+}
+
+.categories-item a {
+    display: block;
+    color: #828282;
+    
+}
+
+.categories-item a:hover {
+    text-decoration:underline #898888;
+}
+
+.footer-contacts {
+    background-color: #ffffff;
+}
+
+.icons-wrapper {
+    float: left;
+}
+
+.icons-wrapper .icon {
+    margin: 38px 18px 38px 0;
+    color: var(--accent-color);
+    font-size: 22px;
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
+    padding: 9px;
+}
+
+.footer-rights {
+    padding: 26px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.footer-rights p {
+    float:left;
+}
+
+.footer-rights a {
+    float:right;
+}
+
